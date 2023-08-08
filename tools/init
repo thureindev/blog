@@ -64,7 +64,7 @@ _check_init() {
       fi
     fi
   fi
-  _has_inited=false
+  
   if $_has_inited; then
     echo "Already initialized."
     exit 0
